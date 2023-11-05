@@ -5,6 +5,8 @@
   "main": "src/index.ts",
   "scripts": {
     "dev": "ts-node src/index.ts",
+    "dev:OCP-Problem": "ts-node src/OCP/00_The_Problem.ts",
+    "dev:OCP-Solution": "ts-node src/OCP/01_Solution.ts",
     "lint:fix": "eslint --fix ./*ts"
   },
   "repository": {
